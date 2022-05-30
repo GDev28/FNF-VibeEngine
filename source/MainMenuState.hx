@@ -215,7 +215,43 @@ class MainMenuState extends MusicBeatState
 			var menuItem:FlxSprite = new FlxSprite(100,100);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
-			menuItem.frames = Paths.getSparrowAtlas('images/sick.png');
+			menuItem.frames = Paths.getSparrowAtlas('images/sick');
+			menuItem.animation.addByPrefix('idle', optionShit[6] + " basic", 24);
+			menuItem.animation.addByPrefix('selected', optionShit[6] + " white", 24);
+			menuItem.animation.play('idle');
+			menuItem.ID = 6;
+			menuItems.add(menuItem);
+			var scr:Float = (optionShit.length - 4) * 0.135;
+			if(optionShit.length < 6) scr = 0;
+			menuItem.scrollFactor.set(scr,scr);
+			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
+			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
+			menuItem.updateHitbox();
+
+			//Test Button
+			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
+			var menuItem:FlxSprite = new FlxSprite(100,100);
+			menuItem.scale.x = scale;
+			menuItem.scale.y = scale;
+			menuItem.frames = Paths.getSparrowAtlas('images/sick');
+			menuItem.animation.addByPrefix('idle', optionShit[6] + " basic", 24);
+			menuItem.animation.addByPrefix('selected', optionShit[6] + " white", 24);
+			menuItem.animation.play('idle');
+			menuItem.ID = 6;
+			menuItems.add(menuItem);
+			var scr:Float = (optionShit.length - 4) * 0.135;
+			if(optionShit.length < 6) scr = 0;
+			menuItem.scrollFactor.set(scr,scr);
+			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
+			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
+			menuItem.updateHitbox();
+
+			//Test Button
+			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
+			var menuItem:FlxSprite = new FlxSprite(100,100);
+			menuItem.scale.x = scale;
+			menuItem.scale.y = scale;
+			menuItem.frames = Paths.getSparrowAtlas('images/sick');
 			menuItem.animation.addByPrefix('idle', optionShit[6] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[6] + " white", 24);
 			menuItem.animation.play('idle');
@@ -229,6 +265,23 @@ class MainMenuState extends MusicBeatState
 			menuItem.updateHitbox();
 
 
+			//Test Button
+			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
+			var menuItem:FlxSprite = new FlxSprite(100,100);
+			menuItem.scale.x = scale;
+			menuItem.scale.y = scale;
+			menuItem.frames = Paths.getSparrowAtlas('images/sick');
+			menuItem.animation.addByPrefix('idle', optionShit[6] + " basic", 24);
+			menuItem.animation.addByPrefix('selected', optionShit[6] + " white", 24);
+			menuItem.animation.play('idle');
+			menuItem.ID = 6;
+			menuItems.add(menuItem);
+			var scr:Float = (optionShit.length - 4) * 0.135;
+			if(optionShit.length < 6) scr = 0;
+			menuItem.scrollFactor.set(scr,scr);
+			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
+			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
+			menuItem.updateHitbox();
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
