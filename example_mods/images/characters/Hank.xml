@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Pico_FNF_assetss.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Hank Down Note0000" x="0" y="0" width="528" height="654" frameX="-12" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0001" x="528" y="0" width="545" height="654" frameX="-3" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0002" x="1073" y="0" width="544" height="654" frameX="-3" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0003" x="1617" y="0" width="532" height="654" frameX="-14" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0004" x="2149" y="0" width="533" height="654" frameX="-14" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0005" x="2682" y="0" width="547" height="654" frameX="0" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0006" x="3229" y="0" width="548" height="654" frameX="0" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0007" x="3777" y="0" width="547" height="654" frameX="-3" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0008" x="4324" y="0" width="547" height="654" frameX="-3" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0009" x="4871" y="0" width="548" height="654" frameX="-3" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0010" x="5419" y="0" width="549" height="654" frameX="-3" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0011" x="5968" y="0" width="537" height="654" frameX="-14" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0012" x="6505" y="0" width="537" height="654" frameX="-14" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Note0013" x="7042" y="0" width="551" height="654" frameX="0" frameY="0" frameWidth="552" frameHeight="654"/>
+	<SubTexture name="Hank Down Shoot0000" x="0" y="654" width="865" height="610" frameX="-12" frameY="-213" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0001" x="865" y="654" width="678" height="612" frameX="-3" frameY="-207" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0002" x="1543" y="654" width="864" height="777" frameX="-3" frameY="-43" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0003" x="2407" y="654" width="838" height="780" frameX="-14" frameY="-40" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0004" x="3245" y="654" width="905" height="820" frameX="-14" frameY="0" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0005" x="4150" y="654" width="577" height="607" frameX="0" frameY="-213" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0006" x="4727" y="654" width="599" height="607" frameX="0" frameY="-213" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0007" x="5326" y="654" width="619" height="607" frameX="-3" frameY="-213" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0008" x="5945" y="654" width="642" height="607" frameX="-3" frameY="-213" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0009" x="6587" y="654" width="683" height="607" frameX="-3" frameY="-213" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0010" x="7270" y="654" width="697" height="607" frameX="-3" frameY="-213" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0011" x="0" y="1474" width="689" height="607" frameX="-14" frameY="-213" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0012" x="689" y="1474" width="690" height="607" frameX="-14" frameY="-213" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Down Shoot0013" x="1379" y="1474" width="704" height="607" frameX="0" frameY="-213" frameWidth="919" frameHeight="823"/>
+	<SubTexture name="Hank Idle0000" x="2083" y="1474" width="425" height="593" frameX="0" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0001" x="2083" y="1474" width="425" height="593" frameX="0" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0002" x="2508" y="1474" width="416" height="594" frameX="-2" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0003" x="2508" y="1474" width="416" height="594" frameX="-2" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0004" x="2924" y="1474" width="411" height="594" frameX="-3" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0005" x="2924" y="1474" width="411" height="594" frameX="-3" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0006" x="3335" y="1474" width="411" height="594" frameX="-4" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0007" x="3746" y="1474" width="418" height="594" frameX="-4" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0008" x="4164" y="1474" width="418" height="595" frameX="-4" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0009" x="4582" y="1474" width="413" height="595" frameX="-4" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0010" x="4995" y="1474" width="412" height="595" frameX="-5" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0011" x="5407" y="1474" width="412" height="595" frameX="-5" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0012" x="5407" y="1474" width="412" height="595" frameX="-5" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Idle0013" x="5819" y="1474" width="407" height="595" frameX="-5" frameY="0" frameWidth="425" frameHeight="595"/>
+	<SubTexture name="Hank Left Note0000" x="6226" y="1474" width="633" height="608" frameX="-94" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0001" x="6859" y="1474" width="741" height="610" frameX="0" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0002" x="0" y="2084" width="598" height="610" frameX="-143" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0003" x="598" y="2084" width="641" height="610" frameX="-89" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0004" x="1239" y="2084" width="697" height="610" frameX="-33" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0005" x="1936" y="2084" width="599" height="610" frameX="-145" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0006" x="2535" y="2084" width="601" height="610" frameX="-143" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0007" x="3136" y="2084" width="724" height="610" frameX="-17" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0008" x="3860" y="2084" width="603" height="610" frameX="-138" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0009" x="4463" y="2084" width="597" height="610" frameX="-144" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0010" x="5060" y="2084" width="584" height="610" frameX="-157" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0011" x="5644" y="2084" width="570" height="610" frameX="-160" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0012" x="6214" y="2084" width="569" height="610" frameX="-161" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0013" x="6783" y="2084" width="582" height="610" frameX="-162" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Note0014" x="6783" y="2084" width="582" height="610" frameX="-162" frameY="0" frameWidth="744" frameHeight="610"/>
+	<SubTexture name="Hank Left Shoot0000" x="7365" y="2084" width="750" height="612" frameX="0" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0001" x="0" y="2696" width="811" height="656" frameX="-18" frameY="-37" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0002" x="811" y="2696" width="841" height="693" frameX="-26" frameY="0" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0003" x="1652" y="2696" width="533" height="610" frameX="-35" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0004" x="2185" y="2696" width="536" height="610" frameX="-37" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0005" x="2721" y="2696" width="539" height="610" frameX="-39" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0006" x="3260" y="2696" width="551" height="610" frameX="-38" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0007" x="3811" y="2696" width="563" height="610" frameX="-36" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0008" x="4374" y="2696" width="567" height="610" frameX="-36" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0009" x="4941" y="2696" width="570" height="610" frameX="-36" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0010" x="5511" y="2696" width="573" height="610" frameX="-36" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0011" x="6084" y="2696" width="574" height="610" frameX="-36" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0012" x="6658" y="2696" width="574" height="610" frameX="-36" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0013" x="7232" y="2696" width="574" height="610" frameX="-36" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Left Shoot0014" x="7232" y="2696" width="574" height="610" frameX="-36" frameY="-83" frameWidth="867" frameHeight="695"/>
+	<SubTexture name="Hank Up note0000" x="0" y="3389" width="412" height="601" frameX="0" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0001" x="412" y="3389" width="406" height="601" frameX="-8" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0002" x="818" y="3389" width="407" height="601" frameX="-8" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0003" x="1225" y="3389" width="402" height="601" frameX="-13" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0004" x="1627" y="3389" width="404" height="601" frameX="-12" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0005" x="2031" y="3389" width="411" height="601" frameX="-5" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0006" x="2442" y="3389" width="411" height="601" frameX="-5" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0007" x="2853" y="3389" width="408" height="601" frameX="-8" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0008" x="3261" y="3389" width="408" height="601" frameX="-8" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0009" x="3669" y="3389" width="409" height="601" frameX="-8" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0010" x="4078" y="3389" width="408" height="601" frameX="-8" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0011" x="4486" y="3389" width="406" height="601" frameX="-11" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0012" x="4486" y="3389" width="406" height="601" frameX="-11" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up note0013" x="4892" y="3389" width="412" height="601" frameX="-5" frameY="0" frameWidth="417" frameHeight="601"/>
+	<SubTexture name="Hank Up shoot0000" x="5304" y="3389" width="794" height="518" frameX="0" frameY="-276" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0001" x="6098" y="3389" width="897" height="754" frameX="-8" frameY="-36" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0002" x="6995" y="3389" width="942" height="790" frameX="-8" frameY="0" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0003" x="0" y="4179" width="568" height="586" frameX="-13" frameY="-204" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0004" x="568" y="4179" width="569" height="586" frameX="-12" frameY="-204" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0005" x="1137" y="4179" width="538" height="580" frameX="-5" frameY="-210" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0006" x="1675" y="4179" width="538" height="580" frameX="-5" frameY="-210" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0007" x="2213" y="4179" width="535" height="580" frameX="-8" frameY="-210" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0008" x="2748" y="4179" width="554" height="574" frameX="-8" frameY="-216" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0009" x="3302" y="4179" width="554" height="574" frameX="-8" frameY="-216" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0010" x="3856" y="4179" width="554" height="574" frameX="-8" frameY="-216" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0011" x="4410" y="4179" width="564" height="568" frameX="-11" frameY="-222" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0012" x="4410" y="4179" width="564" height="568" frameX="-11" frameY="-222" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank Up shoot0013" x="4974" y="4179" width="570" height="568" frameX="-5" frameY="-222" frameWidth="950" frameHeight="794"/>
+	<SubTexture name="Hank right note0000" x="5544" y="4179" width="637" height="603" frameX="-153" frameY="0" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0001" x="6181" y="4179" width="738" height="603" frameX="0" frameY="0" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0002" x="6919" y="4179" width="616" height="604" frameX="-35" frameY="0" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0003" x="7535" y="4179" width="597" height="604" frameX="-48" frameY="0" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0004" x="0" y="4783" width="592" height="604" frameX="-53" frameY="0" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0005" x="592" y="4783" width="595" height="604" frameX="-53" frameY="0" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0006" x="1187" y="4783" width="596" height="604" frameX="-52" frameY="0" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0007" x="1783" y="4783" width="607" height="604" frameX="-52" frameY="0" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0008" x="2390" y="4783" width="608" height="472" frameX="-51" frameY="-132" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0009" x="2998" y="4783" width="601" height="453" frameX="-50" frameY="-150" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0010" x="3599" y="4783" width="601" height="453" frameX="-50" frameY="-150" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0011" x="4200" y="4783" width="595" height="449" frameX="-50" frameY="-154" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0012" x="4200" y="4783" width="595" height="449" frameX="-50" frameY="-154" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right note0013" x="4795" y="4783" width="598" height="478" frameX="-50" frameY="-125" frameWidth="790" frameHeight="604"/>
+	<SubTexture name="Hank right shoot0000" x="5393" y="4783" width="891" height="607" frameX="-1" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0001" x="6284" y="4783" width="971" height="603" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0002" x="0" y="5390" width="966" height="604" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0003" x="966" y="5390" width="731" height="604" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0004" x="1697" y="5390" width="731" height="604" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0005" x="2428" y="5390" width="731" height="604" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0006" x="3159" y="5390" width="731" height="604" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0007" x="3890" y="5390" width="732" height="604" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0008" x="4622" y="5390" width="733" height="604" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0009" x="5355" y="5390" width="734" height="603" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0010" x="6089" y="5390" width="734" height="603" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0011" x="6823" y="5390" width="734" height="603" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0012" x="6823" y="5390" width="734" height="603" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank right shoot0013" x="0" y="5994" width="734" height="603" frameX="0" frameY="0" frameWidth="971" frameHeight="607"/>
+	<SubTexture name="Hank screamright0000" x="734" y="5994" width="788" height="603" frameX="0" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="Hank screamright0001" x="1522" y="5994" width="799" height="603" frameX="-20" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="Hank screamright0002" x="2321" y="5994" width="804" height="603" frameX="-12" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="Hank screamright0003" x="3125" y="5994" width="778" height="603" frameX="-1" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="Hank screamright0004" x="3903" y="5994" width="766" height="603" frameX="-12" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="Hank screamright0005" x="4669" y="5994" width="762" height="603" frameX="-20" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="Hank screamright0006" x="5431" y="5994" width="760" height="603" frameX="-25" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="Hank screamright0007" x="6191" y="5994" width="773" height="603" frameX="-11" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="Hank screamright0008" x="6964" y="5994" width="771" height="603" frameX="-17" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="Hank screamright0009" x="6191" y="5994" width="773" height="603" frameX="-11" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="Hank screamright0010" x="0" y="6597" width="779" height="603" frameX="-8" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="Hank screamright0011" x="779" y="6597" width="773" height="603" frameX="-11" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="Hank screamright0012" x="1552" y="6597" width="782" height="603" frameX="-6" frameY="0" frameWidth="819" frameHeight="603"/>
+	<SubTexture name="HankScaredShootsTiky0000" x="2334" y="6597" width="672" height="592" frameX="0" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0001" x="3006" y="6597" width="716" height="599" frameX="-105" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0002" x="3722" y="6597" width="687" height="596" frameX="-90" frameY="-260" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0003" x="4409" y="6597" width="847" height="812" frameX="-90" frameY="-44" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0004" x="5256" y="6597" width="910" height="856" frameX="-95" frameY="0" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0005" x="6166" y="6597" width="642" height="595" frameX="-95" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0006" x="6808" y="6597" width="657" height="595" frameX="-94" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0007" x="7465" y="6597" width="657" height="595" frameX="-94" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0008" x="0" y="7453" width="653" height="595" frameX="-105" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0009" x="653" y="7453" width="653" height="595" frameX="-105" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0010" x="1306" y="7453" width="671" height="595" frameX="-90" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0011" x="1977" y="7453" width="671" height="595" frameX="-90" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0012" x="2648" y="7453" width="667" height="595" frameX="-95" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0013" x="3315" y="7453" width="667" height="595" frameX="-95" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0014" x="3982" y="7453" width="668" height="595" frameX="-94" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0015" x="4650" y="7453" width="668" height="595" frameX="-94" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0016" x="5318" y="7453" width="657" height="595" frameX="-105" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0017" x="5975" y="7453" width="657" height="595" frameX="-105" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0018" x="6632" y="7453" width="672" height="595" frameX="-90" frameY="-261" frameWidth="1005" frameHeight="860"/>
+	<SubTexture name="HankScaredShootsTiky0019" x="6632" y="7453" width="672" height="595" frameX="-90" frameY="-261" frameWidth="1005" frameHeight="860"/>
+</TextureAtlas>

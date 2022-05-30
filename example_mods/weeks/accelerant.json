@@ -1,0 +1,30 @@
+{
+	"songs": [
+		[
+			"Accelerant",
+			"hank",
+			[
+				135,
+				20,
+				15
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"hank",
+		"bf",
+		"gf"
+	],
+	"storyName": "Reanimated Accelerant Hank",
+	"weekName": "Accelerant",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "week1",
+	"startUnlocked": true
+}
