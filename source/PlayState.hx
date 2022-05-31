@@ -281,6 +281,11 @@ class PlayState extends MusicBeatState
 	public var dashmana:Int;
 	var ready:Bool;
 	var bullet:FlxSprite;
+	var bulletamount:Int;
+	var dodgecooldown:Float = 1.50;
+	var dodgetime:Float = 0.75;
+	var dodging:Bool;
+	var dodgea:Bool;
 
 	override public function create()
 	{
@@ -1215,6 +1220,8 @@ class PlayState extends MusicBeatState
 		Conductor.safeZoneOffset = (ClientPrefs.safeFrames / 60) * 1000;
 		callOnLuas('onCreatePost', []);
 		
+		dodgea = true;
+
 		super.create();
 
 		Paths.clearUnusedMemory();
@@ -2382,12 +2389,12 @@ class PlayState extends MusicBeatState
 
 
 
-		if(dashmana < 100 && ClientPrefs.downScroll == true){
+		if(dashmana < 100 && ClientPrefs.downScroll){
 			test.offset.y = 135 - (dashmana * 1.35);
 			test.animation.play('idle');
 		}
 		
-			else if(dashmana < 100 && ClientPrefs.downScroll == false){
+			else if(dashmana < 100 && !ClientPrefs.downScroll){
 				test.offset.y = -35 + (dashmana * 1.35);
 				test.animation.play('idle');
 			}
@@ -2398,10 +2405,10 @@ class PlayState extends MusicBeatState
 		});
 			
 		}
-		if(ready == true){
+		if(ready){
 			test.animation.play('filled');
 		}
-		if(controls.ACCEPT && ClientPrefs.downScroll == true && ready == true){
+		if(controls.ACCEPT && ClientPrefs.downScroll && ready){
 			FlxTween.tween(test, {y: -100}, 1, {ease: FlxEase.backIn});
 			new FlxTimer().start(1.05, function(tmr:FlxTimer){
 				test.y = 0;
@@ -2410,7 +2417,7 @@ class PlayState extends MusicBeatState
 				ready = false;
 			});
 		}
-		else if(controls.ACCEPT && ClientPrefs.downScroll == false && ready == true){
+		else if(controls.ACCEPT && !ClientPrefs.downScroll && ready){
 			FlxTween.tween(test, {y: 800}, 1, {ease: FlxEase.backIn});
 			new FlxTimer().start(1.05, function(tmr:FlxTimer){
 				test.y = 669;
@@ -2419,6 +2426,30 @@ class PlayState extends MusicBeatState
 				ready = false;
 			});
 		}
+
+
+		//Bullet
+		if(controls.ACCEPT && !dodging && ready && dodgea){
+			dodging = true;
+			boyfriend.debugMode = true;
+			boyfriend.holdTimer = 0.75;
+
+			new FlxTimer().start(dodgetime, function(tmr:FlxTimer){
+				dodging = false;
+				boyfriend.dance();
+			});
+			new FlxTimer().start(0.7, function(tmr:FlxTimer){
+				boyfriend.debugMode = false;
+			});
+			new FlxTimer().start(dodgecooldown, function(tmr:FlxTimer){
+
+				dodgea = true;
+			});
+		}
+		if(dodging){
+			boyfriend.playAnim('dodge');
+		}
+
 
 
 		if(!inCutscene) {
