@@ -96,7 +96,7 @@ class Note extends FlxSprite
 					if(isSustainNote) {
 						missHealth = 0.1;
 					} else {
-						missHealth = 0.3;
+						missHealth = 1;
 					}
 					hitCausesMiss = true;
 				
@@ -105,11 +105,12 @@ class Note extends FlxSprite
 				case 'GF Sing':
 					gfNote = true;
 				case 'Mana Note':
-					ignoreNote = true;
+					ignoreNote = mustPress;
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
-			}
+					hitCausesMiss = false;
+				}
 			noteType = value;
 	
 	

@@ -278,11 +278,11 @@ class PlayState extends MusicBeatState
 
 	//tests
 	public static var test:FlxSprite;
-	public static var dashmana:Int = 0;
+	public var dashmana:Int = 0;
 	var ready:Bool;
 	var bulletamount:Int;
 	var dodgecooldown:Float = 1.50;
-	var dodgetime:Float = 0.75;
+	var dodgetime:Float = 0.25;
 	var dodging:Bool;
 	var dodgea:Bool;
 	var alert:FlxSprite;
@@ -1047,6 +1047,9 @@ class PlayState extends MusicBeatState
 		if(ClientPrefs.downScroll) {
 			botplayTxt.y = timeBarBG.y - 78;
 		}
+
+		dashmana = 0;
+		
 		if(ClientPrefs.downScroll == true){
 			test = new FlxSprite(1049, 0).loadGraphic(Paths.image('cardfull'));
 			test.angle = 180;
@@ -1068,8 +1071,11 @@ class PlayState extends MusicBeatState
 		}
 
 		alert = new FlxSprite(512, 232).loadGraphic(Paths.image('attack_alert'));
+		alert.setGraphicSize(Std.int(alert.width * 1.5));
+		alert.x = 532;
+		alert.y = 232;
 		alert.frames = Paths.getSparrowAtlas('attack_alert');
-		alert.animation.addByPrefix('warn', 'kb_attack_animation_alert', 24, false);
+		alert.animation.addByPrefix('warn', 'kb_attack_animation_alert', 50, false);
 		alert.visible = false;
 
 		add(alert);
@@ -2361,7 +2367,6 @@ class PlayState extends MusicBeatState
 
 		if(controls.UI_UP_P || controls.UI_DOWN_P || controls.UI_LEFT_P || controls.UI_RIGHT_P){
 			trace(dashmana);
-
 		}
 
 		if(dashmana < 100 && ClientPrefs.downScroll){
@@ -2400,6 +2405,7 @@ class PlayState extends MusicBeatState
 				test.y = 669;
 				test.offset.y = -35;
 				ready = false;
+				dashmana = 0;
 			});
 		}
 
@@ -2689,6 +2695,7 @@ class PlayState extends MusicBeatState
 							swagRect.height = (center - daNote.y) / daNote.scale.y;
 							swagRect.y = daNote.frameHeight - swagRect.height;
 
+
 							daNote.clipRect = swagRect;
 						}
 					}
@@ -2788,7 +2795,7 @@ class PlayState extends MusicBeatState
 	function Bulletwarning(ablewarn:Bool = false){
 		if(ablewarn){
 			alert.animation.play('warn');
-			FlxG.sound.play(Paths.sound('alert'));
+			FlxG.sound.play(Paths.sound('warn'));
 		}
 	}
 
@@ -3227,7 +3234,7 @@ class PlayState extends MusicBeatState
 				Bulletwarning(true);
 					new FlxTimer().start((bullettime), function(tmr:FlxTimer){
 						Bulletwarning(true);
-						new FlxTimer().start((bullettime + 0.25), function(tmr:FlxTimer){
+						new FlxTimer().start((0.25), function(tmr:FlxTimer){
 							dodgemechanic(true);
 							alert.visible = false;
 						});
@@ -4045,6 +4052,7 @@ class PlayState extends MusicBeatState
 
 	function goodNoteHit(note:Note):Void
 	{
+		
 		if (!note.wasGoodHit)
 		{
 			if(cpuControlled && (note.ignoreNote || note.hitCausesMiss)) return;
@@ -4061,7 +4069,7 @@ class PlayState extends MusicBeatState
 							boyfriend.playAnim('hurt', true);
 							boyfriend.specialAnim = true;
 						}
-
+					return;
 				}
 				
 				note.wasGoodHit = true;
@@ -4074,11 +4082,6 @@ class PlayState extends MusicBeatState
 				return;
 			}
 			
-			if(note.wasGoodHit && note.noteType == 'Mana Note'){
-				dashmana += 100;
-				test.offset.y = 135 - (100 * 1.35);
-				trace(dashmana);
-			}
 
 			if (!note.isSustainNote)
 			{
@@ -4087,6 +4090,26 @@ class PlayState extends MusicBeatState
 				if(combo > 9999) combo = 9999;
 			}
 			health += note.hitHealth * healthGain;
+
+			switch(note.noteType) {
+				case 'Hurt Note': //Hurt note
+				if(boyfriend.animation.getByName('hurt') != null) {
+					boyfriend.playAnim('hurt', true);
+					boyfriend.specialAnim = true;
+				}
+				return;
+				
+				case 'Mana Note': 
+					dashmana += 100;
+					health = 2;
+					note.kill();
+					notes.remove(note, true);
+					note.destroy();
+				return;
+				
+			}
+			
+
 			dashmana += 1;
 
 
@@ -4133,6 +4156,7 @@ class PlayState extends MusicBeatState
 				}
 			}
 
+			
 			if(cpuControlled) {
 				var time:Float = 0.15;
 				if(note.isSustainNote && !note.animation.curAnim.name.endsWith('end')) {
