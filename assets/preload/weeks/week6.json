@@ -1,76 +1,22 @@
 {
-	"storyName": "nothing is worth the risk",
-	"difficulties": "",
-	"hideFreeplay": false,
-	"weekBackground": "school",
-	"freeplayColor": [
-		146,
-		113,
-		253
+	"songs": [
+		["Senpai", "senpai-pixel", [255, 120, 191]],
+		["Roses", "senpai-pixel", [255, 120, 191]],
+		["Thorns", "spirit-pixel", [255, 120, 191]]
 	],
-	"weekBefore": "tutorial",
-	"startUnlocked": false,
+
 	"weekCharacters": [
 		"senpai",
 		"bf",
-		"dad"
+		"gf"
 	],
-	"songs": [
-		[
-			"milf",
-			"bandu",
-			[
-				66,
-				0,
-				0
-			]
-		],
-		[
-			"south",
-			"spooky",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"thorns",
-			"",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"ching chong",
-			"mom",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"heyallscotthere",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-			"none",
-			[
-				146,
-				113,
-				253
-			]
-		]
-	],
+	"weekBackground": "school",
+
+	"storyName": "hating simulator ft. moawling",
+	"weekBefore": "week5",
+	"weekName": "Week 6",
+	"startUnlocked": true,
+
 	"hideStoryMode": false,
-	"weekName": "bandu helllllllllllllllll"
+	"hideFreeplay": false
 }
