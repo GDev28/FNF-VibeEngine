@@ -1,7 +1,8 @@
 # Friday Night Funkin' - Vibe Engine
 Engine made from the famous Psych Engine used on the mods VS.Stitle and VS.Dokito.
 This engine provides quality of life changes and new game mechanics and rules.
-![](https://user-images.githubusercontent.com/92633997/173256092-ced3ba49-311a-4121-b3cc-07f1c5b73c42.png)
+
+   ![](https://user-images.githubusercontent.com/92633997/173256092-ced3ba49-311a-4121-b3cc-07f1c5b73c42.png)
 
 ## Installation:
 You must have [the most up-to-date version of Haxe](https://haxe.org/download/), seriously, stop using 4.1.5, it misses some stuff.
