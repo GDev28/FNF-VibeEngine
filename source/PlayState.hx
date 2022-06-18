@@ -276,9 +276,9 @@ class PlayState extends MusicBeatState
 	var ready:Bool;
 	var bulletamount:Int;
 	var dodgecooldown:Float = 1.50;
-	var dodgetime:Float = 0.25;
+	var dodgetime:Float = 0.50;
 	var dodging:Bool;
-	var dodgea:Bool;
+	var dodgea:Bool = true;
 	var alert:FlxSprite;
 
 	override public function create()
@@ -2343,6 +2343,8 @@ class PlayState extends MusicBeatState
 
 		if(controls.UI_UP_P || controls.UI_DOWN_P || controls.UI_LEFT_P || controls.UI_RIGHT_P){
 			trace(dashmana);
+			trace(dodging);
+			trace(ready);
 		}
 
 		if(dashmana < 100 && ClientPrefs.downScroll){
@@ -2385,12 +2387,14 @@ class PlayState extends MusicBeatState
 			});
 		}
 
-		
+		trace(dodging);
+
 		//Bullet
 		if(controls.ACCEPT && !dodging && ready && dodgea){
 			dodging = true;
 			boyfriend.debugMode = true;
 			boyfriend.holdTimer = 0.75;
+			dodgea = false;
 
 			new FlxTimer().start(dodgetime, function(tmr:FlxTimer){
 				dodging = false;
@@ -2405,7 +2409,7 @@ class PlayState extends MusicBeatState
 		}
 		if(dodging){
 			boyfriend.playAnim('dodge');
-		}		
+		}
 
 		if(!inCutscene) {
 			var lerpVal:Float = CoolUtil.boundTo(elapsed * 2.4 * cameraSpeed, 0, 1);
